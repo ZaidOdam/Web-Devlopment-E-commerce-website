@@ -135,7 +135,8 @@ Navigation
   display: flex;
   align-items: center;
   height: 100%;
-  width: 50%;
+  width: 60%;
+  float: right;
 }
 
 .nav__item:not(:last-child) {
@@ -256,6 +257,7 @@ Navigation Media Query
   .nav__menu.open {
     left: 30rem;
     width: 30rem;
+    float: none;
   }
 
   .nav__logo {
@@ -291,6 +293,7 @@ Navigation Media Query
     flex-direction: column;
     align-items: start;
     padding: 1.6rem 1rem;
+    float: none;
   }
 
   .nav__item:not(:last-child) {
@@ -304,7 +307,7 @@ Navigation Media Query
   .nav__list .nav__link:link,
   .nav__list .nav__link:visited {
     padding: 1.6rem 0;
-    width: 100%;
+    width: auto;
     color: var(--grey2);
   }
 
@@ -2440,4 +2443,3 @@ Cart Area Media Query
     height: 1.5rem;
   }
 }
-
