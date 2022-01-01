@@ -107,8 +107,10 @@ Navigation
 .nav__logo a {
   font-size: 2.5rem;
   color: var(--black);
-  padding: 1.6rem;
+  padding: 1.4rem;
   font-weight: 700;
+  padding-left: 50px;
+  width: 50%;
 }
 
 .nav__hamburger {
@@ -245,7 +247,7 @@ Navigation Media Query
     top: 0;
     left: -30rem;
     width: 0;
-    background-color: var(--white);
+    background-color: var(--grey);
     z-index: 9990;
     height: 100%;
     transition: all 0.5s;
@@ -279,7 +281,8 @@ Navigation Media Query
   }
 
   .nav__category {
-    color: var(--white);
+    /* color: var(--white); */
+    background-color: #000;
     font-size: 2.3rem;
     font-weight: 700;
   }
@@ -445,7 +448,9 @@ Hero Area
   position: relative;
   text-align: center;
 }
-
+.hero__right img.banner_01 {
+  width: 70%;
+}
 .hero__right img.banner_03 {
   width: 70%;
 }
@@ -491,8 +496,11 @@ Hero Media Query
     height: 60vh;
   }
 
-  .hero__right {
-    display: none;
+  .hero__right img {
+    display: inline;
+    opacity: 0.2;
+    height: 35%;
+    padding-bottom: 10%;
   }
 }
 
@@ -1052,7 +1060,7 @@ Pop Up
 ======================
 */
 
-.popup {
+/* .popup {
   position: fixed;
   top: 0;
   left: 0;
@@ -1145,7 +1153,7 @@ Pop Up
   color: var(--grey2);
   margin-bottom: 1.6rem;
 }
-
+/* 
 .popup__form {
   width: 100%;
   padding: 2rem 0;
@@ -1154,9 +1162,9 @@ Pop Up
   border-radius: 3rem;
   background-color: var(--primaryColor);
   border: none;
-}
+} */
 
-.popup__form:focus {
+/* .popup__form:focus {
   outline: none;
 }
 
@@ -1182,7 +1190,7 @@ Pop Up
   transform: scale(0.2);
   opacity: 0;
   visibility: hidden;
-}
+} */
 
 /*
 ======================
