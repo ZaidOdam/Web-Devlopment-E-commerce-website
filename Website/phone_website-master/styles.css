@@ -128,7 +128,7 @@ Navigation
 }
 
 .nav__menu {
-  width: 50%;
+  width: 40%;
 }
 
 .nav__list {
@@ -136,7 +136,7 @@ Navigation
   align-items: center;
   height: 100%;
   width: 60%;
-  float: right;
+  float: none;
 }
 
 .nav__item:not(:last-child) {
