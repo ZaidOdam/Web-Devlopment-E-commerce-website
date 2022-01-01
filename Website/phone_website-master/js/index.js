@@ -19,8 +19,8 @@ navOpen.addEventListener("click", () => {
 navClose.addEventListener("click", () => {
   menu.classList.remove("open");
   document.body.classList.remove("active");
-  navContainer.style.left = "-30rem";
-  navContainer.style.width = "0";
+  navContainer.style.left = "0";
+  navContainer.style.width = "40%";
 });
 
 /*
