@@ -131,6 +131,17 @@ Navigation
 }
 
 .nav__menu {
+<<<<<<< HEAD
+  width: 40%;
+}
+
+.nav__list {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  width: 60%;
+  float: none;
+=======
     width: 50%;
 }
 
@@ -140,6 +151,7 @@ Navigation
     height: 100%;
     width: 60%;
     float: right;
+>>>>>>> 9df861fc64244ed2d1abb6b79898c44bba0d537e
 }
 
 .nav__item:not(:last-child) {
