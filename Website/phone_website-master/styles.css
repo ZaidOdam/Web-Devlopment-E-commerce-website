@@ -1729,7 +1729,7 @@ Footer
 .footer {
   background-color: var(--black3);
   padding: 6rem 1rem;
-  line-height: 3rem;
+  line-height: 3.2rem;
 }
 
 .footer-top__box span svg {
@@ -1780,7 +1780,7 @@ Footer
 
 @media only screen and (max-width: 768px) {
   .footer__top {
-    grid-template-columns: 1fr;
+    grid-template-columns: 2fr;
     row-gap: 2rem;
   }
 }
@@ -2432,3 +2432,4 @@ Cart Area Media Query
     height: 1.5rem;
   }
 }
+
