@@ -715,31 +715,40 @@ Latest Products
 /* Dropdown button */
 
 .dropdown .dropbtn {
-    font-size: 19px;
+    font-size: 16px;
     border: none;
     outline: none;
-    color: rgb(34, 34, 34);
+    color: white;
+    background-color: black;
     padding: 14px 16px;
-    background-color: inherit;
+    /* background-color: inherit; */
     font-family: inherit;
     /* Important for vertical align on mobile phones */
     margin: 0;
     /* Important for vertical align on mobile phones */
 }
 
+.dropbtn {
+    width: auto;
+    text-align: center;
+}
+
+.dropbtn :hover {
+    background-color: #212529;
+}
+
+.product-item {
+    border: none;
+}
+
 
 /* Add a red background color to navbar links on hover */
-
-.dropdown:hover .dropbtn {
-    border-radius: 5px;
-    background-color: red;
-}
 
 
 /* Dropdown content (hidden by default) */
 
 .dropdown-content {
-    display: none;
+    /* display: none; */
     position: absolute;
     background-color: #f9f9f9;
     min-width: 160px;
@@ -764,13 +773,28 @@ Latest Products
 /* Add a grey background color to dropdown links on hover */
 
 .dropdown-content div:hover {
-    width: 100%;
     display: block;
     background-color: #ddd;
 }
 
 
 /* Show the dropdown menu on hover */
+
+#more {
+    display: none;
+}
+
+#up {
+    display: none;
+}
+
+.fa-caret-down {
+    color: white;
+}
+
+.fa-caret-up {
+    color: white;
+}
 
 .dropdown:hover .dropdown-content {
     display: block;
