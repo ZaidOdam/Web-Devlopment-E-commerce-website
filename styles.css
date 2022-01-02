@@ -264,6 +264,7 @@ Navigation Media Query
     left: 30rem;
     width: 30rem;
     float: none;
+    background-color: #f1f1f1;
   }
   .nav__logo {
     width: 50%;
