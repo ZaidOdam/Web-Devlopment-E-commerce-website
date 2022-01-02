@@ -91,6 +91,14 @@ Filtering
 =============
  */
 
+function closelist() {
+    var morelist = document.getElementById("more");
+    var btn = document.getElementById("myBtn");
+    btn.innerHTML = "Show More&nbsp;&nbsp;&#8595;";
+    morelist.style.display = "none";
+    btn.value = "False";
+}
+
 const filterBtn = document.querySelectorAll(".filter-btn");
 const categoryContainer = document.getElementById("category");
 
