@@ -85,7 +85,6 @@ Navigation
   position: relative;
   height: 7rem;
   box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.1);
-  padding-right: 10%;
 }
 
 .nav {
@@ -365,12 +364,12 @@ Hero Area
 }
 
 .glide__arrow--left {
-  left: 20rem;
+  left: 10rem;
 }
 
 .glide__arrow--right {
   position: absolute;
-  right: 20rem;
+  right: 10rem;
 }
 
 .hero:hover .glide__arrow {
@@ -378,11 +377,11 @@ Hero Area
 }
 
 .hero:hover .glide__arrow--left {
-  left: 23rem;
+  left: 15rem;
 }
 
 .hero:hover .glide__arrow--right {
-  right: 23rem;
+  right: 15rem;
 }
 
 .hero .glide__arrow svg {
